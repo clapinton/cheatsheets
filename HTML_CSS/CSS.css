@@ -1,0 +1,28 @@
+/* Styling one form element */
+input[type="radio"] {}
+
+/* Structural Selectors */
+table tr:nth-of-type(2n) {} /* Every other */
+header img:first_child {}
+
+
+/* Selectors */
+li > img {} /* selects img that are li children */
+
+li ~ img {} /* selects siblings */
+
+li + img {} /* all img that immediately precede li */
+
+
+/* Flexbox */
+/* Make all immediate children flex objects (float left and responsive) */
+display: flex;
+
+/* Vertical align */
+align-itmes: center;
+
+/* Add space between all immediate children */
+justify-content: space-between;
+
+/* Wrap elements */
+flex-wrap: wrap;
